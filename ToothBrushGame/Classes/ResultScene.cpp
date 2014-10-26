@@ -130,7 +130,7 @@ bool ResultScene::init()
     pButton->setPosition(Vec2(visibleSize.width / 2,origin.y + 200));
     addChild(pButton);
     
-    
+    /*
     //今、BGMが流れているかどうか
     if(SimpleAudioEngine::getInstance()->isBackgroundMusicPlaying()){
         
@@ -143,7 +143,7 @@ bool ResultScene::init()
         SimpleAudioEngine::getInstance()->playBackgroundMusic(BGM_RESULT_1);
         
     }
-    
+    */
     return true;
 }
 

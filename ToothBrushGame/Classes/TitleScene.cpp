@@ -163,8 +163,6 @@ void TitleScene::menuButtonAchievements(void)
     
     Director::getInstance()->replaceScene(TransitionFade::create(1.0f,AchievementsScene::createScene(),Color3B::WHITE));
     
-    //音楽を止める
-    SimpleAudioEngine::getInstance()->stopBackgroundMusic(true);
 }
 
 //================================================================================

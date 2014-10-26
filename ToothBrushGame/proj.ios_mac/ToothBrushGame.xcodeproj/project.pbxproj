@@ -1013,7 +1013,7 @@
 				LastUpgradeCheck = 0600;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = N32WVFQ7H8;
+						DevelopmentTeam = 4DUFGD924K;
 					};
 				};
 			};
@@ -1351,7 +1351,7 @@
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = "";
-				PROVISIONING_PROFILE = "6800c772-8be9-4ba4-a6e4-e92d5b352bf1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -1382,7 +1382,7 @@
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = "";
-				PROVISIONING_PROFILE = "6800c772-8be9-4ba4-a6e4-e92d5b352bf1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
