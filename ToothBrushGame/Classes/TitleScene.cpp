@@ -137,10 +137,10 @@ bool TitleScene::init()
     if(SimpleAudioEngine::getInstance()->isBackgroundMusicPlaying()){
         
         //音楽を止める
-        SimpleAudioEngine::getInstance()->stopBackgroundMusic(true);
-        
+      //  SimpleAudioEngine::getInstance()->stopBackgroundMusic(true);
+     
     }else{
-        
+      
         //タイトル画面BGMをループ再生
         SimpleAudioEngine::getInstance()->playBackgroundMusic(BGM_TITLE_1, true);
         
