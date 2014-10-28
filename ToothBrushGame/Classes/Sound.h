@@ -96,4 +96,9 @@ using namespace CocosDenshion;
 
 #define SE_GAME_OVER_1 ("se_game_over_1.mp3")
 
+#define SE_GET_ACHIEVEMENT_1 ("get_achievement_1.mp3")
+#define SE_GET_ACHIEVEMENT_2 ("get_achievement_2.mp3")
+#define SE_GET_ACHIEVEMENT_3 ("get_achievement_3.mp3")
+#define SE_GET_ACHIEVEMENT_4 ("get_achievement_4.mp3")
+
 #endif

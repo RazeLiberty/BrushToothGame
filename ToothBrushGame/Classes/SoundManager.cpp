@@ -59,6 +59,10 @@ void SoundManager::init()
     SimpleAudioEngine::getInstance()->preloadEffect(SE_GAME_OVER_1);
     SimpleAudioEngine::getInstance()->preloadEffect(SE_POWDER_1);
     SimpleAudioEngine::getInstance()->preloadEffect(SE_POWDER_2);
+    SimpleAudioEngine::getInstance()->preloadEffect(SE_GET_ACHIEVEMENT_1);
+    SimpleAudioEngine::getInstance()->preloadEffect(SE_GET_ACHIEVEMENT_2);
+    SimpleAudioEngine::getInstance()->preloadEffect(SE_GET_ACHIEVEMENT_3);
+    SimpleAudioEngine::getInstance()->preloadEffect(SE_GET_ACHIEVEMENT_4);
 
     /*
      CocosDenshion::SimpleAudioEngine::getInstance()->preloadEffect(SE_BOSS_DOWN_1);
@@ -127,6 +131,10 @@ void SoundManager::uninit()
     SimpleAudioEngine::getInstance()->unloadEffect(SE_SWIPE_3);
     SimpleAudioEngine::getInstance()->unloadEffect(SE_FANFARE_1);
     SimpleAudioEngine::getInstance()->unloadEffect(SE_GAME_OVER_1);
+    SimpleAudioEngine::getInstance()->unloadEffect(SE_GET_ACHIEVEMENT_1);
+    SimpleAudioEngine::getInstance()->unloadEffect(SE_GET_ACHIEVEMENT_2);
+    SimpleAudioEngine::getInstance()->unloadEffect(SE_GET_ACHIEVEMENT_3);
+    SimpleAudioEngine::getInstance()->unloadEffect(SE_GET_ACHIEVEMENT_4);
 
 }
 

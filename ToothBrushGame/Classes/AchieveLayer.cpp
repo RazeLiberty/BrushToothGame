@@ -13,6 +13,7 @@
 #include "TitleScene.h"
 #include "GameMainScene.h"
 #include "RankManager.h"
+#include "Sound.h"
 USING_NS_CC;
 //================================================================================
 // シーン生成
@@ -130,6 +131,9 @@ void AchieveLayer::ButtonTitle(void)
 
 void AchieveLayer::setDispAchieveLayer(int nAchieveNum)
 {
+    //SE
+    SimpleAudioEngine::getInstance()->playEffect(SE_GET_ACHIEVEMENT_4);
+
     m_pMessage->setString(AchievementDataBaseList::getAchievement(nAchieveNum).title);
     m_pMessage->setColor(Color3B::BLACK);
     m_pTitle->setColor(Color3B::BLACK);

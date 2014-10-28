@@ -18,8 +18,10 @@ const char* ACHIEVEMENT_NAME[ACHIEVEMENT_MAX]
     "ACHIEVEMENT_TYPE_ENEMY_DOWN",//倒した敵の総数
     "ACHIEVEMENT_TYPE_ENEMY_NORMAL_ONE_DOWN",//普通の種類の敵の倒した数
     "ACHIEVEMENT_TYPE_ENEMY_NORMAL_TWO_DOWN",
+    "ACHIEVEMENT_TYPE_ENEMY_NORMAL_TREE_DOWN",
     "ACHIEVEMENT_TYPE_ENEMY_LAIR_ONE_DOWN",//レア種類の敵を倒した数
     "ACHIEVEMENT_TYPE_ENEMY_LAIR_TWO_DOWN",
+    "ACHIEVEMENT_TYPE_ENEMY_LAIR_TREE_DOWN",
     "ACHIEVEMENT_TYPE_USE_UGAI",//うがいを使用した回数
     "ACHIEVEMENT_TYPE_USE_TOOTHPOWDER",//歯磨きボムを使用した回数
     "ACHIEVEMENT_TYPE_USE_TOUP",//タップした回数
@@ -41,29 +43,31 @@ const char* ACHIEVEMENT_NAME[ACHIEVEMENT_MAX]
 const std::string ACHIEVEMENT_STATUSNAME[ACHIEVEMENT_MAX]
 {
     "ACHIEVE_TYPE_NONE",//実績タイプ
-    "きどうしたかいすぅ",//起動回数
-    "みがいたかいすぅ",//プレイ回数
-    "ばいばいしたばいきんさん",//倒した敵の総数
-    "ばいばいしたよわいばいきんさん",//普通の種類の敵の倒した数
-    "ばいばいしたふつうのばいきんさん",
-    "ばいばいしたれあなばいきんさん",//レア種類の敵を倒した数
-    "ばいばいしたれあなつよいばいきんさん",
-    "がらがらっぺしたかいすぅ",
-    "おくちのなかすぅすぅしたかいすぅ",
-    "おくちにさわられたかいすぅ",
-    "とっぷすこぁ",//１ゲームのトップスコア
-    "ぃっかぃでぃっぱぃばぃばぃしたかずぅ",//１ゲームの敵の最高で倒した数
-    "ぃっかぃのはみがきこぉでたぉしたかずぅ",//１ゲームでボムで倒した敵の数
-    "ぃっかぃのはみがきではみがきこをつかわなかったかずぅ",//１ゲームでボムを使用した最も少ない回数
-    "ぃっかいのはみがきでぃっぱぃはみがきつかったかずぅ",//１ゲームでボムを使用した最も多い回数
-    "ぃっかぃのはみがきでぃっぱいうがぃしたかずぅ",//うがいを使用した回数
+    "きどうしたかいすぅ　　　　　　　　　　　　　　　　　　",//起動回数
+    "みがいたかいすぅ　　　　　　　　　　　　　　　　　　　",//プレイ回数
+    "ばいばいしたばいきんさん　　　　　　　　　　　　　　　",//倒した敵の総数
+    "ばいばいしたよわいばいきんさん　　　　　　　　　　　　",//普通の種類の敵の倒した数
+    "ばいばいしたふつうのばいきんさん　　　　　　　　　　　",
+    "ばいばいしたつよいのばいきんさん　　　　　　　　　　　",
+    "ばいばいしたれあなよわいばいきんさん　　　　　　　　　",//レア種類の敵を倒した数
+    "ばいばいしたれあなばいきんさん　　　　　　　　　　　　",//レア種類の敵を倒した数
+    "ばいばいしたれあなつよいばいきんさん　　　　　　　　　",
+    "がらがらっぺしたかいすぅ　　　　　　　　　　　　　　　",
+    "おくちのなかすぅすぅしたかいすぅ　　　　　　　　　　　",
+    "おくちにさわられたかいすぅ　　　　　　　　　　　　　　",
+    "とっぷすこぁ　　　　　　　　　　　　　　　　　　　　　",//１ゲームのトップスコア
+    "ぃっかぃでぃっぱぃばぃばぃしたかずぅ　　　　　　　　　",//１ゲームの敵の最高で倒した数
+    "ぃっかぃのはみがきこぉでたぉしたかずぅ　　　　　　　　",//１ゲームでボムで倒した敵の数
+    "ぃっかぃのはみがきではみがきこをつかわなかったかずぅ　",//１ゲームでボムを使用した最も少ない回数
+    "ぃっかいのはみがきでぃっぱぃはみがきつかったかずぅ　　",//１ゲームでボムを使用した最も多い回数
+    "ぃっかぃのはみがきでぃっぱいうがぃしたかずぅ　　　　　",//うがいを使用した回数
     "はみがきこでばぃばぃしたばぃきんさんがぃちばんのかずぅ",//１ゲームでボム使用で倒した敵で最も多い回数
-    "はみがきがぃちばんみじかかったかずぅ",//ゲームにかかった最短タイム
-    "くちのこっちゃたばいきんさんのかずぅ",//うがいしなかった敵の数
-    "歯磨き以外でお前に触られた数",//タイトルの女の子のタップ回数
-    "歯磨き以外でお前になでられた数",//タイトルの女の子のスワイプ回数
-    "歯磨き中にお前に触られた数",//ステータスの女の子のタップ回数
-    "歯磨き中でお前になでられた数",//ステータスの女の子スワイプ回数
+    "はみがきがぃちばんみじかかったかずぅ　　　　　　　　　",//ゲームにかかった最短タイム
+    "くちのこっちゃたばいきんさんのかずぅ　　　　　　　　　",//うがいしなかった敵の数
+    "歯磨き以外でお前に触られた数　　　　　　　　　　　　　",//タイトルの女の子のタップ回数
+    "歯磨き以外でお前になでられた数　　　　　　　　　　　　",//タイトルの女の子のスワイプ回数
+    "歯磨き中にお前に触られた数　　　　　　　　　　　　　　",//ステータスの女の子のタップ回数
+    "歯磨き中でお前になでられた数　　　　　　　　　　　　　",//ステータスの女の子スワイプ回数
 
 };
 
@@ -84,7 +88,7 @@ AchievementDataBaseList::ACHIEVE_STATUS AchievementData[]=
     {"実績9","実績フラグ9",ACHIEVEMENT_TYPE_GAME_TOP_SCORE,100,"スコア100pt達成した！","もっとみがいてよぉ"},
     {"実績10","実績フラグ10",ACHIEVEMENT_TYPE_GAME_TOP_SCORE,1000,"スコア1000pt達成した！","おくちきれいきれい"},
     {"実績11","実績フラグ11",ACHIEVEMENT_TYPE_GAME_TOP_SCORE,5000,"スコア5000達成した！","いっぱいみがいたね！"},
-    {"実績12","実績フラグ12",ACHIEVEMENT_TYPE_ENEMY_DOWN,100000,"スコア10000pt達成した！","やばい。"},
+    {"実績12","実績フラグ12",ACHIEVEMENT_TYPE_ENEMY_DOWN,100000,"スコア10000pt達成した！","やばい。"}
 };
 
 std::string strsprintf(const char* format,...){
@@ -125,11 +129,14 @@ std::string AchievementDataBaseList::getAchievementName(int achieveInfo){
     return ACHIEVEMENT_STATUSNAME[achieveInfo];
 }
 
-void AchievementDataBaseList::addAchievement(ACHIEVEMENT_KIND achievement)
+void AchievementDataBaseList::addAchievement(ACHIEVEMENT_KIND achievement,bool bSave)
 {
     m_nAchievementCont[achievement]++;
     chkAchievement(achievement);
-    saveAchievement();
+    if(bSave)
+    {
+        saveAchievement();
+    }
 }
 
 void AchievementDataBaseList::dispAchievement(int nUnlcok)
@@ -205,33 +212,39 @@ void AchievementDataBaseList::chkAchievement(ACHIEVEMENT_KIND achieve)
                     time(&curTime);
                     timeObject = localtime(&curTime);
                     std::string time = strsprintf("%d年 %d月 %d日 %d : %d : %d" ,
-                                           timeObject->tm_year + 1900 , timeObject->tm_mon + 1 ,
-                                           timeObject->tm_mday , timeObject->tm_hour ,
-                                           timeObject->tm_min , timeObject->tm_sec);
+                                                  timeObject->tm_year + 1900 , timeObject->tm_mon + 1 ,
+                                                  timeObject->tm_mday , timeObject->tm_hour ,
+                                                  timeObject->tm_min , timeObject->tm_sec);
                     m_pAchievemntDate[nloop].swap(time);
                     dispAchievement(nloop);
                 }
             }
-            
+
         }
     }
 }
 
-void AchievementDataBaseList::setAchievementMin(ACHIEVEMENT_KIND achievement,int nNum)
+void AchievementDataBaseList::setAchievementMin(ACHIEVEMENT_KIND achievement,int nNum,bool bSave)
 {
     if(nNum < m_nAchievementCont[achievement])
     {
         m_nAchievementCont[achievement] = nNum;
         chkAchievement(achievement);
-        saveAchievement();
+        if(bSave)
+        {
+            saveAchievement();
+        }
     }
 }
-void AchievementDataBaseList::setAchievementMax(ACHIEVEMENT_KIND achievement,int nNum)
+void AchievementDataBaseList::setAchievementMax(ACHIEVEMENT_KIND achievement,int nNum,bool bSave)
 {
     if(nNum > m_nAchievementCont[achievement])
     {
-    m_nAchievementCont[achievement] = nNum;
-    chkAchievement(achievement);
-    saveAchievement();
+        m_nAchievementCont[achievement] = nNum;
+        chkAchievement(achievement);
+        if(bSave)
+        {
+            saveAchievement();
+        }
     }
 }

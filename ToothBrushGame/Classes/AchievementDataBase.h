@@ -20,8 +20,10 @@ enum ACHIEVEMENT_KIND
     ACHIEVEMENT_TYPE_ENEMY_DOWN,//倒した敵の総数
     ACHIEVEMENT_TYPE_ENEMY_NORMAL_ONE_DOWN,//普通の種類の敵の倒した数
     ACHIEVEMENT_TYPE_ENEMY_NORMAL_TWO_DOWN,
+    ACHIEVEMENT_TYPE_ENEMY_NORMAL_TREE_DOWN,
     ACHIEVEMENT_TYPE_ENEMY_LAIR_ONE_DOWN,//レア種類の敵を倒した数
     ACHIEVEMENT_TYPE_ENEMY_LAIR_TWO_DOWN,
+    ACHIEVEMENT_TYPE_ENEMY_LAIR_TREE_DOWN,
     ACHIEVEMENT_TYPE_USE_UGAI,//うがいを使用した回数
     ACHIEVEMENT_TYPE_USE_TOOTHPOWDER,//歯磨きボムを使用した回数
     ACHIEVEMENT_TYPE_USE_TOUP,//タップした回数
@@ -44,7 +46,7 @@ enum ACHIEVEMENT_KIND
 class AchieveLayer;
 class AchievementDataBaseList{
 public:
-    
+
     //実績解除条件のデータ構造隊
     struct ACHIEVE_STATUS
     {
@@ -55,7 +57,7 @@ public:
         std::string title;//実績名
         std::string message;//実績内容
     };
-    
+
 public:
     AchievementDataBaseList(){}
     ~AchievementDataBaseList(){SAFE_DELETE_ARRAY(m_pAchievemntDate);SAFE_DELETE_ARRAY(m_pAchievemntFlag);SAFE_DELETE(m_pAchieveLayer);}
@@ -75,10 +77,10 @@ public:
     static std::string getAchievementName(int achieveInfo);
 
     //実績情報に加算
-    static void addAchievement(ACHIEVEMENT_KIND achievement);//回数カウント
+    static void addAchievement(ACHIEVEMENT_KIND achievement,bool bSave = false);//回数カウント
     //実績情報に挿入
-    static void setAchievementMin(ACHIEVEMENT_KIND achievement,int nNum);//回数カウント
-    static void setAchievementMax(ACHIEVEMENT_KIND achievement,int nNum);//回数カウント
+    static void setAchievementMin(ACHIEVEMENT_KIND achievement,int nNum,bool bSave = false);//回数カウント
+    static void setAchievementMax(ACHIEVEMENT_KIND achievement,int nNum,bool bSave = false);//回数カウント
 
     //実績画面表示
     static void dispAchievement(int nUnlcok);
@@ -88,7 +90,7 @@ public:
     static void loadAchievement(void);
     //実績条件チェック
     static void chkAchievement(ACHIEVEMENT_KIND achieve);
-    
+
     static void resetAchievement();
 
 private:
@@ -97,7 +99,7 @@ private:
     static bool* m_pAchievemntFlag;
     static std::string* m_pAchievemntDate;
     static AchieveLayer* m_pAchieveLayer;
-    
+
 
 };
 
