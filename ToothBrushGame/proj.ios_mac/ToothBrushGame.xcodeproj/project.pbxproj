@@ -121,9 +121,6 @@
 		615ABAC81A7A7C290045F49D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615ABAC71A7A7C290045F49D /* AdSupport.framework */; };
 		615ABACA1A7A7C5E0045F49D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615ABAC91A7A7C5E0045F49D /* Security.framework */; };
 		615ABACC1A7A7C7E0045F49D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615ABACB1A7A7C7E0045F49D /* ImageIO.framework */; };
-		615ABAD91A7A7F0C0045F49D /* NendIconModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 615ABAD61A7A7F0C0045F49D /* NendIconModule.mm */; };
-		615ABADA1A7A7F0C0045F49D /* NendInterstitialModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 615ABAD71A7A7F0C0045F49D /* NendInterstitialModule.mm */; };
-		615ABADB1A7A7F0C0045F49D /* NendModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 615ABAD81A7A7F0C0045F49D /* NendModule.mm */; };
 		6193EE2719F4120C00E98E07 /* TitleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6193EE2519F4120C00E98E07 /* TitleScene.cpp */; };
 		6193EE3319F4174C00E98E07 /* ResultScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6193EE3119F4174C00E98E07 /* ResultScene.cpp */; };
 		6193EE3819F53FAB00E98E07 /* PauseScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6193EE3619F53FAB00E98E07 /* PauseScene.cpp */; };
@@ -146,6 +143,9 @@
 		6193EE7E19F864CD00E98E07 /* ToothPowderIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6193EE7A19F864CD00E98E07 /* ToothPowderIcon.png */; };
 		770596A719FD2DDB0070B5CC /* se_powder_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 770596A519FD2DDB0070B5CC /* se_powder_2.mp3 */; };
 		770596AB19FD333D0070B5CC /* bgm_enemy_scene_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 770596AA19FD333D0070B5CC /* bgm_enemy_scene_5.mp3 */; };
+		7AF57E6F1AA0C182007187CB /* NendModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7AF57E6E1AA0C182007187CB /* NendModule.mm */; };
+		7AF57E711AA0C19B007187CB /* NendIconModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7AF57E701AA0C19B007187CB /* NendIconModule.mm */; };
+		7AF57E731AA0C1AB007187CB /* NendInterstitialModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7AF57E721AA0C1AB007187CB /* NendInterstitialModule.mm */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -472,9 +472,6 @@
 		615ABACD1A7A7E940045F49D /* NendIconModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NendIconModule.h; sourceTree = "<group>"; };
 		615ABACE1A7A7E940045F49D /* NendInterstitialModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NendInterstitialModule.h; sourceTree = "<group>"; };
 		615ABACF1A7A7E940045F49D /* NendModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NendModule.h; sourceTree = "<group>"; };
-		615ABAD61A7A7F0C0045F49D /* NendIconModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NendIconModule.mm; path = ../../../../../../Downloads/nendSDK_cocos2dX_Module_for_v3.x/NendModule/NendIconModule.mm; sourceTree = "<group>"; };
-		615ABAD71A7A7F0C0045F49D /* NendInterstitialModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NendInterstitialModule.mm; path = ../../../../../../Downloads/nendSDK_cocos2dX_Module_for_v3.x/NendModule/NendInterstitialModule.mm; sourceTree = "<group>"; };
-		615ABAD81A7A7F0C0045F49D /* NendModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NendModule.mm; path = ../../../../../../Downloads/nendSDK_cocos2dX_Module_for_v3.x/NendModule/NendModule.mm; sourceTree = "<group>"; };
 		6193EE2519F4120C00E98E07 /* TitleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TitleScene.cpp; path = ../Classes/TitleScene.cpp; sourceTree = "<group>"; };
 		6193EE2619F4120C00E98E07 /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleScene.h; path = ../Classes/TitleScene.h; sourceTree = "<group>"; };
 		6193EE3119F4174C00E98E07 /* ResultScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ResultScene.cpp; path = ../Classes/ResultScene.cpp; sourceTree = "<group>"; };
@@ -503,6 +500,9 @@
 		6193EE7A19F864CD00E98E07 /* ToothPowderIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToothPowderIcon.png; sourceTree = "<group>"; };
 		770596A519FD2DDB0070B5CC /* se_powder_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = se_powder_2.mp3; sourceTree = "<group>"; };
 		770596AA19FD333D0070B5CC /* bgm_enemy_scene_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm_enemy_scene_5.mp3; sourceTree = "<group>"; };
+		7AF57E6E1AA0C182007187CB /* NendModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NendModule.mm; path = ../../../../../Downloads/nendSDK_cocos2dX_Module_for_v3.x/NendModule/NendModule.mm; sourceTree = "<group>"; };
+		7AF57E701AA0C19B007187CB /* NendIconModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NendIconModule.mm; path = ../../../../../Downloads/nendSDK_cocos2dX_Module_for_v3.x/NendModule/NendIconModule.mm; sourceTree = "<group>"; };
+		7AF57E721AA0C1AB007187CB /* NendInterstitialModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NendInterstitialModule.mm; path = ../../../../../Downloads/nendSDK_cocos2dX_Module_for_v3.x/NendModule/NendInterstitialModule.mm; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -655,9 +655,9 @@
 		080E96DDFE201D6D7F000001 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				615ABAD61A7A7F0C0045F49D /* NendIconModule.mm */,
-				615ABAD71A7A7F0C0045F49D /* NendInterstitialModule.mm */,
-				615ABAD81A7A7F0C0045F49D /* NendModule.mm */,
+				7AF57E721AA0C1AB007187CB /* NendInterstitialModule.mm */,
+				7AF57E701AA0C19B007187CB /* NendIconModule.mm */,
+				7AF57E6E1AA0C182007187CB /* NendModule.mm */,
 				5087E77117EB970100C73F5D /* Icons */,
 				503AE0FA17EB989F00D1A890 /* AppController.h */,
 				503AE0FB17EB989F00D1A890 /* AppController.mm */,
@@ -1199,7 +1199,7 @@
 				LastUpgradeCheck = 0600;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = 6T4Z455KN7;
+						DevelopmentTeam = 4DUFGD924K;
 					};
 				};
 			};
@@ -1447,6 +1447,7 @@
 				6193EE3819F53FAB00E98E07 /* PauseScene.cpp in Sources */,
 				C36E0AF519F0C43500E5040C /* Enemy.cpp in Sources */,
 				C36E0AF119F0C43500E5040C /* AppDelegate.cpp in Sources */,
+				7AF57E731AA0C1AB007187CB /* NendInterstitialModule.mm in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				C36E0B0219F0C43500E5040C /* Score.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
@@ -1459,7 +1460,6 @@
 				C36E0AF319F0C43500E5040C /* Bubble.cpp in Sources */,
 				C36E0AFB19F0C43500E5040C /* Item.cpp in Sources */,
 				18C9C82E19FDEB32007A1C42 /* SoundManager.cpp in Sources */,
-				615ABADA1A7A7F0C0045F49D /* NendInterstitialModule.mm in Sources */,
 				C36E0AF719F0C43500E5040C /* GameMainScene.cpp in Sources */,
 				C31B643519F8C58F00A8D67A /* AchievementsScene.cpp in Sources */,
 				C38DFCE01A00C2050090C2C9 /* ConfigScene.cpp in Sources */,
@@ -1468,14 +1468,14 @@
 				C3CF34AC19FF6ACE00ECAC8C /* VirusToothManager.cpp in Sources */,
 				C32E525019F8E6A300A93F0E /* AchievementList.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				7AF57E711AA0C19B007187CB /* NendIconModule.mm in Sources */,
 				C36E0B0519F0C43500E5040C /* UIManager.cpp in Sources */,
-				615ABAD91A7A7F0C0045F49D /* NendIconModule.mm in Sources */,
 				C36E0B0419F0C43500E5040C /* ToothManager.cpp in Sources */,
+				7AF57E6F1AA0C182007187CB /* NendModule.mm in Sources */,
 				C36E0B5219F0C5F100E5040C /* HitChecker.cpp in Sources */,
 				C36E0AF219F0C43500E5040C /* Boss.cpp in Sources */,
 				C36E0B0319F0C43500E5040C /* Tooth.cpp in Sources */,
 				C3C4B9CE1A00E594009F8C8B /* EnemyScore.cpp in Sources */,
-				615ABADB1A7A7F0C0045F49D /* NendModule.mm in Sources */,
 				C36E0AFF19F0C43500E5040C /* Plaque.cpp in Sources */,
 				C36E0AF619F0C43500E5040C /* EnemyManager.cpp in Sources */,
 				C3DCB0D919FE4B7500C48DEC /* DetailScore.cpp in Sources */,
