@@ -76,7 +76,6 @@
 		1AC6FB23180E996B004C840B /* libCocosDenshion Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB01180E9839004C840B /* libCocosDenshion Mac.a */; };
 		1AC6FB2E180E99EB004C840B /* libbox2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB0D180E9839004C840B /* libbox2d iOS.a */; };
 		1AC6FB2F180E99EB004C840B /* libchipmunk iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB0B180E9839004C840B /* libchipmunk iOS.a */; };
-		1AC6FB30180E99EB004C840B /* libcocos2dx iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2dx iOS.a */; };
 		1AC6FB31180E99EB004C840B /* libcocos2dx-extensions iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB09180E9839004C840B /* libcocos2dx-extensions iOS.a */; };
 		1AC6FB32180E99EB004C840B /* libCocosDenshion iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB0F180E9839004C840B /* libCocosDenshion iOS.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -138,6 +137,12 @@
 		6193EE7E19F864CD00E98E07 /* ToothPowderIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6193EE7A19F864CD00E98E07 /* ToothPowderIcon.png */; };
 		770596A719FD2DDB0070B5CC /* se_powder_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 770596A519FD2DDB0070B5CC /* se_powder_2.mp3 */; };
 		770596AB19FD333D0070B5CC /* bgm_enemy_scene_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 770596AA19FD333D0070B5CC /* bgm_enemy_scene_5.mp3 */; };
+		7AF57E5D1AA0ADA2007187CB /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF57E561AA0ADA2007187CB /* libNendAd.a */; };
+		7AF57E5E1AA0ADA3007187CB /* NADView_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7AF57E5C1AA0ADA2007187CB /* NADView_readme.txt */; };
+		7AF57E621AA0ADE8007187CB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF57E611AA0ADE8007187CB /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7AF57E641AA0AE05007187CB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF57E631AA0AE05007187CB /* Security.framework */; };
+		7AF57E661AA0AE0C007187CB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF57E651AA0AE0C007187CB /* ImageIO.framework */; };
+		7AF57E671AA0BB04007187CB /* libcocos2dx iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2dx iOS.a */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -479,6 +484,16 @@
 		6193EE7A19F864CD00E98E07 /* ToothPowderIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToothPowderIcon.png; sourceTree = "<group>"; };
 		770596A519FD2DDB0070B5CC /* se_powder_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = se_powder_2.mp3; sourceTree = "<group>"; };
 		770596AA19FD333D0070B5CC /* bgm_enemy_scene_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm_enemy_scene_5.mp3; sourceTree = "<group>"; };
+		7AF57E561AA0ADA2007187CB /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNendAd.a; sourceTree = "<group>"; };
+		7AF57E571AA0ADA2007187CB /* NADIconArrayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconArrayView.h; sourceTree = "<group>"; };
+		7AF57E581AA0ADA2007187CB /* NADIconLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconLoader.h; sourceTree = "<group>"; };
+		7AF57E591AA0ADA2007187CB /* NADIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconView.h; sourceTree = "<group>"; };
+		7AF57E5A1AA0ADA2007187CB /* NADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADInterstitial.h; sourceTree = "<group>"; };
+		7AF57E5B1AA0ADA2007187CB /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
+		7AF57E5C1AA0ADA2007187CB /* NADView_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NADView_readme.txt; sourceTree = "<group>"; };
+		7AF57E611AA0ADE8007187CB /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		7AF57E631AA0AE05007187CB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		7AF57E651AA0AE0C007187CB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -580,9 +595,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF57E671AA0BB04007187CB /* libcocos2dx iOS.a in Frameworks */,
+				7AF57E661AA0AE0C007187CB /* ImageIO.framework in Frameworks */,
+				7AF57E641AA0AE05007187CB /* Security.framework in Frameworks */,
+				7AF57E621AA0ADE8007187CB /* AdSupport.framework in Frameworks */,
 				1AC6FB2E180E99EB004C840B /* libbox2d iOS.a in Frameworks */,
 				1AC6FB2F180E99EB004C840B /* libchipmunk iOS.a in Frameworks */,
-				1AC6FB30180E99EB004C840B /* libcocos2dx iOS.a in Frameworks */,
 				1AC6FB31180E99EB004C840B /* libcocos2dx-extensions iOS.a in Frameworks */,
 				1AC6FB32180E99EB004C840B /* libCocosDenshion iOS.a in Frameworks */,
 				D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */,
@@ -591,6 +609,7 @@
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */,
 				BF1712471292920000B8313A /* libz.dylib in Frameworks */,
+				7AF57E5D1AA0ADA2007187CB /* libNendAd.a in Frameworks */,
 				BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */,
 				D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */,
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
@@ -683,6 +702,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				7AF57E551AA0ADA2007187CB /* NendAd */,
 				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				15AA9C4015B7EC450033D6C2 /* Classes */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -697,6 +717,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7AF57E651AA0AE0C007187CB /* ImageIO.framework */,
+				7AF57E631AA0AE05007187CB /* Security.framework */,
+				7AF57E611AA0ADE8007187CB /* AdSupport.framework */,
 				D6B0611A1803AB670077942B /* CoreMotion.framework */,
 				503AE11A17EB9C5A00D1A890 /* IOKit.framework */,
 				503AE11117EB99EE00D1A890 /* libcurl.dylib */,
@@ -1019,6 +1042,20 @@
 			path = ../Resources;
 			sourceTree = "<group>";
 		};
+		7AF57E551AA0ADA2007187CB /* NendAd */ = {
+			isa = PBXGroup;
+			children = (
+				7AF57E561AA0ADA2007187CB /* libNendAd.a */,
+				7AF57E571AA0ADA2007187CB /* NADIconArrayView.h */,
+				7AF57E581AA0ADA2007187CB /* NADIconLoader.h */,
+				7AF57E591AA0ADA2007187CB /* NADIconView.h */,
+				7AF57E5A1AA0ADA2007187CB /* NADInterstitial.h */,
+				7AF57E5B1AA0ADA2007187CB /* NADView.h */,
+				7AF57E5C1AA0ADA2007187CB /* NADView_readme.txt */,
+			);
+			path = NendAd;
+			sourceTree = "<group>";
+		};
 		C31B643019F8C52400A8D67A /* Achievements */ = {
 			isa = PBXGroup;
 			children = (
@@ -1147,7 +1184,7 @@
 				LastUpgradeCheck = 0600;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = N32WVFQ7H8;
+						DevelopmentTeam = 4DUFGD924K;
 					};
 				};
 			};
@@ -1264,6 +1301,7 @@
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				C385EFD11A00841400B2B61A /* ButtonGameMenu.png in Resources */,
 				6193EE6A19F5BDB600E98E07 /* ButtonTouchStart.png in Resources */,
+				7AF57E5E1AA0ADA3007187CB /* NADView_readme.txt in Resources */,
 				188B083C1A021DE60001FC9B /* Images.xcassets in Resources */,
 				6193EE7B19F864CD00E98E07 /* GameTopBack.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
@@ -1524,7 +1562,8 @@
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/NendAd";
+				OTHER_LDFLAGS = "";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1557,7 +1596,8 @@
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/NendAd";
+				OTHER_LDFLAGS = "";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1648,7 +1688,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.9;
 			};
 			name = Debug;
 		};
@@ -1677,7 +1717,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.9;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

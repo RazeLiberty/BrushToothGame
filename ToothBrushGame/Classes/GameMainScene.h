@@ -10,6 +10,8 @@
 #define __ToothBrushGame__GameMainScene__
 #include "cocos2d.h"
 #include "GameDifficult.h"
+#include "NADView.h"
+
 using namespace cocos2d;
 
 #define GAME_TIME_MAX (60)
